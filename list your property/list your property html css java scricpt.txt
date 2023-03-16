@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Change text every 3 seconds</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta https-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+<nav>      
+<label class="logo"><span > Booking.com </span></label> 
+
+  <body>
+    <div class="row-outer">
+      <div class="container">
+        <div class="animated-heading">
+          <h1>List your<br><span id="words"><span id="words"></span></span><br>on Booking.com</h1></br>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      (function () {
+        var words = ["anything","hotel","apartment","holiday home","guest house" ],
+        i = 0;
+        setInterval(function(){ $('#words').fadeOut(function(){
+            $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
+          }); }, 4000)
+      })();
+    </script>
+<div class="as">
+<h1>Registration is free and can take as little as 15 minutes to<br>
+complete-get started today</br></h1>
+</div>
+<div class="bbk">
+<div class="row">
+<div class="column">
+<div class="card">
+<div class="wrapper">
+<i class="fas fa-hammer">
+</div>
+<h2>Create new listing</h2>
+<p>More than 6.4 million holiday rentals already listed</p><br>
+<p>Over 1 billion holiday rental guest arrivals</p><br>
+<p>More than 40% of the new holiday rental listings<br>
+ get their first booking within a week<br></p>
+ <hr style="color:black";>
+ <h3>Create a partner account to get started:</h3>
+ <p>By continuing, you agree to let Booking.<br>
+ com email you regarding your property registration.<br></p>
+ <input type="submit" name="" value="Get started">
+ <hr>
+ <p>Already started a registration?</p>
+ <a href="#">Continue your registration</a>
+ </div>
+<div class="ml">
+<h5>Already a partner?       <button><a href="file:///C:/Users/NTR/Desktop/singin.html">Sign in</a></button>                        <button><a href="file:///C:/Users/NTR/Desktop/help%20contact.html">Help</a></button>
+</div> 
+<div class="ght">
+<h2>Your peace of mind is our top priority</h2>
+<p>Here`s how we`re helping you feel confident welcoming guests:</p><br>
+<p>Set house rules guest must agree to before they stay</p><br>
+<p>Request damage deposits for extra security</p><br>
+<p>Report guest misconduct if something goes wrong</p><br>
+<p>Access 24/7 support in 43+ languages</p><br>
+<p>Protection against liability claims from guests and neighbours up to</p><br> 
+<p>$1,000,000 for every reservation</p></br></div>
+<div class="sdsd">
+<img src="https://q-xx.bstatic.com/psb/capla/static/media/peace-of-mind.a71f10d1.svg">
+</div>
+<div class="gst">
+<button><a href="#">Learn more</a></button>
+</div>
+<div class="jkl">
+<h2>Which best describes you?<h2><br>
+<p>Select one of the options to see customised information</p></br>
+</div>
+  </body>
+</html>
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.container {
+    width: 95%;
+    max-width: 1160px;
+    margin: auto;
+}
+.animated-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    color: #4b00ff;
+    font-weight: 500;
+}
+span#words {
+    font-weight: bolder;
+}
+<style>
+* {    
+padding: 0%;   
+margin: 0%;  
+text-decoration: none;    
+list-style: none;    
+box-sizing: border-box;
+}
+body {    
+font-family: Arial;
+}
+nav 
+{   
+background:#000075;    
+height: 650px;  
+width: 100%;
+}
+label.logo {
+color: white;
+font-size: 50px; 
+line-height: 80px;    
+padding: 0  100px;    
+font-weight: bold;
+}
+nav ul{    
+float:left down;  
+margin-left: 100px;
+}
+* {
+
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+section {
+
+  height: 100vh;
+
+  width: 100%;
+
+  display: grid;
+
+  place-items: right;
+
+}
+
+.row {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+}
+
+.column {
+
+  width: 100%;
+
+  padding: 0 1em 1em 1em;
+
+  text-align: center;
+
+}
+
+.card {
+
+  width: 100%;
+
+  height: 35%;
+
+  padding: 2em 1.5em;
+
+  background:linear-gradient(#ffffff 50%,#2c7bfe 50%); 
+
+  background-size: 100% 200%;
+
+  background-position: 0 2.5%;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+
+  cursor: pointer;
+
+  transition: 0.5s;
+
+}
+
+h3 {
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  color: #1f194c;
+
+  margin: 1em 0;
+
+}
+
+p {
+
+  color: #575a7b;
+
+  font-size: 15px;
+
+  line-height: 1.6;
+
+  letter-spacing: 0.03em;
+
+}
+
+.icon-wrapper {
+
+  background-color: #2c7bfe;
+
+  position: relative;
+
+  margin: auto;
+
+  font-size: 30px;
+
+  height: 2.5em;
+
+  width: 2.5em;
+
+  color: #ffffff;
+
+  border-radius: 50%;
+
+  display: grid;
+
+  place-items: center;
+
+  transition: 0.5s;
+
+}
+
+.card:hover {
+
+  background-position: 0 100%;
+
+}
+
+.card:hover .icon-wrapper {
+
+  background-color: #ffffff;
+
+  color: #2c7bfe;
+
+}
+
+.card:hover h3 {
+
+  color: #ffffff;
+
+}
+
+.card:hover p {
+
+  color: #f0f0f0;
+
+}
+
+@media screen and (min-width: 768px) {
+
+  section {
+
+    padding: 0 2em;
+
+  }
+
+  .column {
+
+    flex: 0 50%;
+
+    max-width: 50%;
+
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  section {
+
+    padding: 1em 3em;
+
+  }
+
+  .column {
+
+    flex: 0 0 33.33%;
+
+    max-width: 33.33%;
+
+  }
+
+}
+.bbk{
+position:relative;
+top:-650px;
+left:+750px;
+height:400px;
+}
+
+.ml{
+position:relative;
+top:-590px;
+left:+90px;
+}
+
+}
+.box{
+position:relative;
+top:-550px;
+left:+100px;font-size:2rem;
+}
+{
+font-family:'IBM plex sans',sans-serif;
+}
+.container{
+width:95%;
+max-width:1160px;
+margin:auto;
+}
+.animated-heading{
+position:relative;
+display:flex;
+align-items:center;
+justify-content:left;
+height:100vh;
+top:-150px;
+font-size:2rem;
+}
+h1{
+color:white;
+font-weight:500;
+}
+.as{
+position:relative;
+color:white;
+top:-350px;
+left:+50px;
+}
+.ght{
+position:relative;
+color:black;
+top:+100px;
+left:-700px;
+}
+.sdsd{
+position:relative;
+top:-180px;
+}
+.gst{
+position:relative;
+top:-100px;
+left:-800px;
+}
+.jkl{
+position:relative;
+top:-50px;
+left:-800px;
+}
+h5{
+position:relative;
+color:white;
+}
+button{
+width:100px;
+height:30px;
+}
+</style>
+ 
